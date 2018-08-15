@@ -6,10 +6,19 @@ function destructivelyAppendKitten(name){
   return kittens;
 }
 
+function destructivelyPrependKitten(name){
+  kittens.unshift(name);
+  return kittens;
+}
 
+function destructivelyRemoveLastKitten(name){
+  kittens.pop(name);
+  return kittens;
+}
 
-
-
+function destructivelyRemoveFirstKitten(name){
+  kittens.shift()
+}
 
 
 // Add your functions and code here
